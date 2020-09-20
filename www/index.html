@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Vítejte | Klubík Vlašim</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <script src="themes/default/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="themes/default/swiper/swiper.min.css"/>
+    <link href="themes/default/default.css?r=12" rel="stylesheet"/>
+    <script type="text/javascript" src="themes/default/default.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="author" content="Piggies first"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="Content-language" content="cs"/>
+</head>
+<body id="body" class="hp">
+
+<header id="header">
+    <div class="wrapper">
+        <a href="/" class="logo"><img src="themes/default/images/logo.png"></a>
+        <a id="navicon"><span></span></a>
+        <nav>
+            <span><a class="cross"></a></span>
+            <span><a href="index.html">O Klubíku</a></span>
+            <span><a href="jidelni-listek.html">Jídelní a nápojový lístek</a></span>
+            <a href=""></a>
+            <span><a href="kontakt.html">Kontakt</a></span>
+            <span><a href="https://www.facebook.com/klubikvlasim/"><img src="themes/default/images/fb.png"/></a></span>
+        </nav>
+    </div>
+</header>
+
+<div class="swiper-container slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide s1"
+                style="background:url('themes/default/images/slide1.jpg') repeat-x center center; background-size: cover;">
+            <div class="wrapper">
+                <p style="">Dětská hernička s prolézačkami, domečkem<br/>
+                    skluzavkou a další zábavou, aby se děti vyřádily.
+                    <br/>Vlastní koutek pro miminka s hrazdičkou.
+                </p>
+            </div>
+        </div>
+        <div class="swiper-slide s2"
+                style="background:url('themes/default/images/slide2.jpg') repeat-x center center; background-size: cover;visibility:hidden;">
+            <div class="wrapper">
+                <p style="visibility:hidden;">
+                    Kavárna, domácí limonády,
+                    <br/>freshe, smoothies a čaje Coccole.
+                    <br/>Jednoduchá chutná jídla,
+                    <br/>aby si u nás maminky odpočinuly.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="headline">
+        <p class="wrapper">Vítejte</p>
+    </div>
+</div>
+
+<script>
+        var swiper1 = new Swiper('.slider', {
+            effect: 'fade',
+            loop: true,
+            speed: 500,
+            autoplay: 6000
+        });
+        jQuery(window).load(function () {
+            setTimeout(function () {
+                jQuery('.swiper-slide.s2,.swiper-slide.s3,.swiper-slide.s4').css('visibility', 'visible');
+                jQuery('.swiper-slide.s2 p,.swiper-slide.s3 p,.swiper-slide.s4 p').css('visibility', 'visible');
+            }, 1000);
+        });    
+</script>
+
+<div class="wrapper">
+    <div class="content">
+        <div class="section">
+            <p>Vlašimský klubík je hernička pro děti a kavárna v jednom. Na více než 100m<sup>2</sup> v centru Vlašimi najdete spoustu
+                hraček pro děti, domeček, skluzavku, boxovací pytle a další. Pro nejmenší děti máme připravený
+                miminkovský koutek s hrazdičkou. Maminky si mezitím mohou dát třeba dobrou kávu, čerstvé smoothie nebo
+                něco na zub.
+                <img src="themes/default/images/balonkyaklouzacka.jpg"/>
+                Veliká klec, kde mohou děti bezpečně dovádět. Klouzačka, balonky, malý kolotoč, boxovací pytle...
+                <img src="themes/default/images/kavarna.jpg"/>
+                Bar a křesílka, gauče, stolky a židličky pro pohodlný odpočinek maminek. Rádi vám připravíme výbornou kávu, smoothie nebo toast. Prostor je větší, než je vidět na fotografii ;-)
+                <img src="themes/default/images/koutekpromiminka.jpg"/>
+                Speciální prostor trochu stranou, kde je možné odložit ty nejmenší, na měkké dece si mohou hrát s hrazdičkou
+                <img src="themes/default/images/domecek.jpg"/>
+                Domeček s verandou a dětskou kuchyňkou uvnitř, ve kterém si třeba děti mohou hrát na rodiče :-)
+        </div>
+        <footer class="footer">
+            <p>Mail:
+                <a href="mailto:klubik@klubik.eu">klubik@klubik.eu</a>
+            </p>
+            <p>
+                <a href="https://klubik.eu/">WWW: klubik.eu</a>
+            </p>
+            <p>Tel: 732 976 124</p>
+            <p>Komenského 1894, 258 01 Vlašim</a></p>
+            <p>
+                <a href="https://www.firmy.cz/detail/13279691"><img src="themes/default/images/firmycz.png"/></a>
+                <a href="https://mapy.cz/s/culumohebo"><img src="themes/default/images/mapycz.png"/></a>
+                <a href="https://www.facebook.com/klubikvlasim/"><img src="themes/default/images/fb.png"/></a>
+            </p>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>

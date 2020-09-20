@@ -1,0 +1,200 @@
+/*------------------------RESET---------------------------*/
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, img, ins, kbd, q, s, samp,small, strike, sub, tt, var, center,dl, dt, dd, ul,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; text-decoration:none; list-style-type: none;}
+article, aside, details, figcaption, figure, hgroup, menu, nav, section { display: block; }
+/*------------------------------------------------------*/
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  text-align:center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align:center;
+}
+
+html, body, form                                {width: 100%; height: 100%; font-size: 46px;}
+body                                            {background: #f5f5f5; font-family: Lucida, "Lucida Sans", Tahoma, sans-serif; overflow-x: hidden; overflow-y: auto;}
+  @media screen and (max-width: 1200px)         {html, body {font-size: 44px;}}
+  @media screen and (max-width: 1150px)         {html, body {font-size: 42px;}}
+  @media screen and (max-width: 1100px)         {html, body {font-size: 40px;}}
+  @media screen and (max-width: 1050px)         {html, body {font-size: 38px;}}
+  @media screen and (max-width: 1000px)         {html, body {font-size: 36px;}}
+  @media screen and (max-width: 950px)          {html, body {font-size: 34px;}}
+  @media screen and (max-width: 900px)          {html, body {font-size: 32px;}}
+  @media screen and (max-width: 850px)          {html, body {font-size: 30px;}}
+  @media screen and (max-width: 800px)          {html, body {font-size: 28px;}}
+  @media screen and (max-width: 750px)          {html, body {font-size: 26px;}}
+  @media screen and (max-width: 700px)          {html, body {font-size: 24px;}}
+  @media screen and (max-width: 650px)          {html, body {font-size: 22px;}}
+  @media screen and (max-width: 600px)          {html, body {font-size: 20px;}}
+  @media screen and (max-width: 550px)          {html, body {font-size: 18px;}}
+  @media screen and (max-width: 500px)          {html, body {font-size: 16px;}}
+  @media screen and (max-width: 450px)          {html, body {font-size: 14px;}}
+  @media screen and (max-width: 400px)          {html, body {font-size: 12px;}}
+
+.wrapper                                        {display: block; margin-left: auto; margin-right: auto; width: 1024px; box-sizing: border-box; position: relative;}
+.content                                        {display: block; width: 100%; background: white;}
+  @media screen and (max-width: 1156px)         {
+  .wrapper                                      {width: 90%;}
+  }
+
+/* HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#header                                         {display: block; width: 100%; height: auto; padding: 0 0 20px; background: white;}
+#header .wrapper                                {display: flex; justify-content: space-between; align-items: flex-end; position: relative;}
+#header .logo                                   {display: block; width: 258px;}
+#header .logo img                               {display: block; width: 100%;} 
+#header #navicon                                {display: none;}
+#header nav                                     {display: flex; width: auto;}
+#header nav span                                {display: block; margin-right: 1.4rem;}
+#header nav span:last-child                     {margin-right: 0;}
+#header nav span a                              {display: flex; color: #777; font-size: 17px; font-weight: 400; line-height: 1em;}
+#header nav span a.sel                          {color: #f7b024;}
+#header nav span a:hover                        {color: #151515;}
+#header nav span a.cross                        {display: none;}
+  @media screen and (max-width: 1400px)         {
+  #header                                       {padding: 0 0 17px;}
+  #header .logo                                 {width: 210px;}
+  #header nav span                              {margin-right: 1.3rem;}
+  #header nav span a                            {font-size: 16px;}
+  }
+  @media screen and (max-width: 1280px)         {
+  #header                                       {padding: 0 0 15px;}
+  #header .logo                                 {width: 180px;}
+  }
+  @media screen and (max-width: 960px)          {
+  #header .logo                                 {width: 150px;}
+  #header nav span                              {margin-right: 1rem;}
+  #header nav span a                            {font-size: 15px;}
+  }
+  @media screen and (max-width: 768px)          {
+  #header #navicon                              {display: flex;}
+  #header #navicon span                         {display: block; width: 30px; height: 30px; background: URL('images/navicon.svg') no-repeat center top; background-size: 30px auto;}
+  #header #navicon span:hover                   {background-position: center -30px; cursor: pointer;}
+  #header nav                                   {display: block; position: fixed; width: 270px; right: -280px; top: 0; z-index: 100; height: 100%; padding: 68px 30px 15px; box-sizing: border-box; background: #f9a721; -webkit-transition: 0.4s; -moz-transition: 0.4s; transition: 0.4s; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);}
+  #header nav.show                              {right: 0;}
+  #header nav span                              {width: 100%; text-align: left; margin-left: 0; margin-bottom: 30px;}
+  #header nav span a                            {display: block; font-size: 17px; font-weight: 400; color: #4f3100; padding: 0;}
+  #header nav span a:hover                      {color: white;}
+  #header nav span a.sel                        {color: white; font-weight: 600;}
+  #header nav span a.cross                      {display: block; position: absolute; top: 15px; right: 15px; width: 30px; height: 30px; background: URL('images/navicon.svg') no-repeat center -60px; background-size: 100% auto; -webkit-transition: none; -moz-transition: none; transition: none;}
+  #header nav span a.cross:hover                {background-position: center -90px; cursor: pointer;}
+  }
+  @media screen and (max-width: 480px)          {
+  #header .logo                                 {width: 130px;}
+  }
+
+/* FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.footer                                         {display: flex; width: 100%; justify-content: center; align-items: center; flex-wrap: wrap; padding: 12px 0px; background: #cc017a;}
+.footer .wrap                                   {display: none; width: 100%; margin: 3px 0;}
+.footer p                                       {display: block; font-size: 13px; color: white; position: relative; margin-right: 41px;}
+.footer p a                                     {color: white;}
+.footer p:after                                 {display: block; position: absolute; right: -20px; top: 0; content: "|";}
+.footer p:last-of-type                          {margin-right: 0;}
+.footer p:last-of-type:after                    {display: none;}
+  @media screen and (max-width: 1124px)         {
+  .footer p                                     {font-size: 12px; margin-right: 25px;}
+  .footer p:after                               {right: -12px;}
+  }
+  @media screen and (max-width: 960px)          {
+  .footer .wrap                                 {display: block;}
+  .footer p:nth-child(2),
+  .footer p:nth-child(5)                        {margin-right: 0;}
+  .footer p:nth-child(2):after,
+  .footer p:nth-child(5):after                  {display: none;}
+  }
+  @media screen and (max-width: 480px)          {
+  .footer p                                     {font-size: 11px; margin-right: 19px;}
+  .footer p:after                               {right: -9px;}
+  }
+  
+/* GENERAL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.section                                        {display: block; width: 100%; padding: 50px 0; box-sizing: border-box;}                                             
+.section h2                                     {;}
+.section h3                                     {font-size: 18px; font-weight: 400; color: rgba(11, 21, 33, 1); padding-bottom: 4px; margin-top: 10px;}
+.section p, .section li                         {display: block; width: 100%; text-align: left; color: #6f6f6f; line-height: 1.6em; font-weight: 300; font-size: 15px; padding: 10px 5% 0; box-sizing: border-box; letter-spacing: 0.03em;}
+.section p:first-of-type                        {padding-top: 0;}
+.section ul                                     {;}
+.section li                                     {width: auto; text-align: left; padding: 0;}
+.section img                                    {display: block; margin-top: 40px;}
+.section img.w100                               {width: 100%;}
+.section .text-img                              {display: flex; width: 100%; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; padding: 40px 5% 0; box-sizing: border-box;}
+.section .text-img p                            {display: block; width: calc(97% - 400px); padding: 0;}
+.section .text-img img                          {display: block; width: 100%; max-width: 400px; margin: 0;}
+  @media screen and (max-width: 1280px)         {
+  .section                                      {padding: 44px 0;}
+  .section .text-img                            {display: block; }                                                                                   
+  .section .text-img p                          {width: 100%;}
+  .section .text-img img                        {margin: 30px 0 0;}
+  }
+  @media screen and (max-width: 1080px)         {
+  .section                                      {padding: 36px 0;}
+  .section p, .section li                       {font-size: 14px;}
+  }
+  @media screen and (max-width: 768px)          {
+  .section                                      {padding: 26px 0;}
+  .section p, .section li                       {font-size: 13px;}
+  }
+  @media screen and (max-width: 640px)          {
+  .section p, .section li                       {font-size: 12px;}
+  }
+  @media screen and (max-width: 540px)          {
+  .section p, .section li                       {font-size: 11px;}
+  }
+        
+/* SLIDER --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.slider                                         {display: block; width: 100%; height: auto;}
+.slider .swiper-slide                           {display: block; width: 100%; height: 480px; -webkit-flex-shrink: 0; -ms-flex: 0 0 auto; flex-shrink: 0; position: relative;}
+.slider .swiper-slide.s1                        { background-size: cover;}
+.slider .swiper-slide.s2                        { background-size: cover;}
+/*.slider .swiper-slide .wrapper                  {display: flex; height: 100%; justify-content: flex-start; align-items: center;}
+.slider .swiper-slide .wrapper p                {display: block; width: auto; color: white; font-size: 24px; font-weight: 200; line-height: 1.2em; padding: 20px 30px; background: rgba(202,135,0,0.8); background-image:url('themes/default/images/slider_bg.png'); background-repeat:repeat; margin-top: 80px; position: relative; z-index: 3; font-family: "Calibri", sans-serif;}
+.slider .swiper-slide .wrapper:before           {display: block; width: 100%; height: 100%; background: URL("images/slide-klubik.png") no-repeat right bottom; background-size: auto 90%; position: absolute; right: 0; bottom: 0; z-index: 1; content: "";}
+*/
+
+.slider .swiper-slide .wrapper                  {display: flex; height: 100%; justify-content: flex-start; align-items: center;}
+.slider .swiper-slide .wrapper p                {display: block;width: auto;color: white;font-size: 24px;font-weight: 200;line-height: 1.2em;padding: 20px 30px;background: rgba(80,0,47,0.65);margin-top: 80px;position: relative;z-index: 3;font-family: "Calibri", sans-serif;}
+.slider .swiper-slide .wrapper:before           {display: block; width: 100%; height: 100%; background: URL("images/slide-klubik.png") no-repeat right bottom; background-size: auto 90%; position: absolute; right: 0; bottom: 0; z-index: 1; content: "";}
+
+.slider .headline                               {display: block; width: 100%; /*background: rgba(202,135,0,0.8);*/ background-image:url('themes/default/images/slider_bg.png'); background-repeat:repeat; padding: 8px 0; position: absolute; left: 0; bottom: 0; z-index: 2;}
+.slider .headline p                             {font-size: 24px; color: white; padding-left: 30px;}
+  @media screen and (max-width: 1400px)         {
+  .slider .swiper-slide                         {height: 460px;}
+  .slider .swiper-slide .wrapper p              {font-size: 22px; padding: 18px 26px; margin-top: 70px;}
+  .slider .headline                             {padding: 7px 0;}
+  .slider .headline p                           {font-size: 22px; padding-left: 26px;}
+  }
+  @media screen and (max-width: 1280px)         {
+  .slider .swiper-slide                         {height: 440px;}
+  }
+  @media screen and (max-width: 1080px)         {
+  .slider .swiper-slide                         {height: 420px;}
+  .slider .swiper-slide .wrapper p              {font-size: 20px; padding: 16px 23px; margin-top: 60px;}
+  .slider .headline                             {padding: 7px 0;}
+  .slider .headline p                           {font-size: 21px; padding-left: 23px;}
+  }
+  @media screen and (max-width: 960px)          {
+  .slider .swiper-slide                         {height: 400px;}
+  .slider .swiper-slide .wrapper p              {font-size: 19px; padding: 14px 21px; margin-top: 50px;}
+  .slider .headline                             {padding: 7px 0;}
+  .slider .headline p                           {font-size: 20px; padding-left: 21px;}
+  }
+  @media screen and (max-width: 768px)          {
+  .slider .swiper-slide .wrapper p              {max-width: 45%;}
+  .slider .swiper-slide .wrapper p br           {display: none;}
+  .slider .swiper-slide .wrapper:before         {background-size: auto 80%;}
+  }
+  @media screen and (max-width: 640px)          {
+  .slider .swiper-slide .wrapper p              {font-size: 17px;}
+  }
+  @media screen and (max-width: 580px)          {
+  .slider .swiper-slide                         {height: 540px;}
+  .slider .swiper-slide .wrapper:before         {background-position: center bottom;}
+  .slider .swiper-slide .wrapper                {align-items: flex-end;}
+  .slider .swiper-slide .wrapper p              {max-width: 100%; margin: 0px 0 80px;}
+  }
+
+.clear { clear: both;height: 1px; line-height: 1px; overflow: hidden; margin-bottom: -1px; }

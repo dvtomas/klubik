@@ -99,14 +99,14 @@
         <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="841.889763779528" PAGEHEIGHT="595.275590551181" BORDERLEFT="39.6850393700787" BORDERRIGHT="39.6850393700787" BORDERTOP="28.3464566929134" BORDERBOTTOM="56.6929133858268" NUM="1" NAM="Normal Right" MNAM="" Size="Custom" Orientation="1" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="841.889763779528" PAGEHEIGHT="595.275590551181" BORDERLEFT="39.6850393700787" BORDERRIGHT="39.6850393700787" BORDERTOP="28.3464566929134" BORDERBOTTOM="56.6929133858268" NUM="0" NAM="" MNAM="Normal Right" Size="Custom" Orientation="1" LEFT="0" PRESET="0" VerticalGuides="420.945 452.126 389.764 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="655.27937007874" PAGEWIDTH="841.889763779528" PAGEHEIGHT="595.275590551181" BORDERLEFT="39.6850393700787" BORDERRIGHT="39.6850393700787" BORDERTOP="28.3464566929134" BORDERBOTTOM="56.6929133858268" NUM="1" NAM="" MNAM="Normal Left" Size="Custom" Orientation="1" LEFT="0" PRESET="0" VerticalGuides="389.764 420.945 452.126 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGEOBJECT XPOS="552.126614173229" YPOS="121.347716535433" OwnPage="0" ItemID="1721169212" PTYPE="4" WIDTH="350.07874015748" HEIGHT="59.5275590551181" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 59.5276 L0 59.5276 L0 0 Z" copath="M0 0 L350.079 0 L350.079 59.5276 L0 59.5276 L0 0 Z" gXpos="552.126614173229" gYpos="121.347716535433" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="552.126614173229" YPOS="121.347716535433" OwnPage="0" ItemID="675055264" PTYPE="4" WIDTH="350.07874015748" HEIGHT="59.5275590551181" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 59.5276 L0 59.5276 L0 0 Z" copath="M0 0 L350.079 0 L350.079 59.5276 L0 59.5276 L0 0 Z" gXpos="552.126614173229" gYpos="121.347716535433" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CH="Klubík"/>
                 <trail PARENT="Nápis klubík"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="139.685669291339" YPOS="48.3477165354331" OwnPage="0" ItemID="1721212908" PTYPE="4" WIDTH="350.07874015748" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="139.685669291339" gYpos="48.3477165354331" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="139.685669291339" YPOS="48.3477165354331" OwnPage="0" ItemID="674966592" PTYPE="4" WIDTH="350.07874015748" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="139.685669291339" gYpos="48.3477165354331" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CH="Jídelní lístek"/>
@@ -119,19 +119,15 @@
                 <nbspace/>
                 <ITEXT CH="ks) jsou nižší a menší než panini, takže se budou lépe jíst menším dětem. Řekněte si, zda chcete toasty z bílé nebo celozrnné mouky."/>
                 <para PARENT="Podsekce - popis"/>
-                <ITEXT CH="Toast/Panini se šunkou, sýrem, rajčátkem a ledovým salátem "/>
-                <tab/>
-                <ITEXT CH=" 45/65,-"/>
-                <para PARENT="Menu položka"/>
-                <ITEXT CH="Vegetariánský Toast/Panini se sýrem camembert, "/>
+                <ITEXT CH="Toast/Panini s bazalkovým pestem, sýrem camembert"/>
                 <breakline/>
-                <ITEXT CH="vlašskými ořechy a jablkem "/>
+                <ITEXT CH="a vlašskými ořechy"/>
                 <tab/>
-                <ITEXT CH=" 45/65,-"/>
+                <ITEXT CH="45/65,-"/>
                 <para PARENT="Menu položka"/>
-                <ITEXT CH="Veganský Toast/Panini s pestem, bylinkovým tofu, rajčátkem, "/>
+                <ITEXT CH="Toast/Panini s bazalkovým pestem, bylinkovým tofu,"/>
                 <breakline/>
-                <ITEXT CH="ledovým salátem a sezamem "/>
+                <ITEXT CH="sušeným rajčátkem a sezamem "/>
                 <tab/>
                 <ITEXT CH=" 45/65,-"/>
                 <para PARENT="Menu položka"/>
@@ -144,13 +140,13 @@
                 <ITEXT CH="Díky přípravě bez smažení v oleji jsou jídla zdravá a vhodná pro děti."/>
                 <para PARENT="Podsekce - popis"/>
                 <ITEXT CH="Hranolky "/>
-                <ITEXT FONT="Comic Neue Regular" CH="s kečupem nebo bylinkovým dipem"/>
+                <ITEXT FONT="Comic Neue Regular" CH="s kečupem"/>
                 <ITEXT CH=" "/>
                 <tab/>
                 <ITEXT CH=" 39,-"/>
                 <para PARENT="Menu položka"/>
                 <ITEXT CH="Krokety "/>
-                <ITEXT FONT="Comic Neue Regular" CH="s kečupem nebo bylinkovým dipem"/>
+                <ITEXT FONT="Comic Neue Regular" CH="s kečupem "/>
                 <ITEXT CH=" "/>
                 <tab/>
                 <ITEXT CH=" 49,-"/>
@@ -194,7 +190,7 @@
                 <trail PARENT="Menu položka"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="139.685669291339" YPOS="683.625826771654" OwnPage="1" ItemID="1721968332" PTYPE="4" WIDTH="350.07874015748" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="139.685669291339" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="1721196364" BACKITEM="-1">
+        <PAGEOBJECT XPOS="139.685669291339" YPOS="683.625826771654" OwnPage="1" ItemID="675517696" PTYPE="4" WIDTH="350.07874015748" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="139.685669291339" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="675761040" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CH="Nápojový lístek"/>
@@ -354,15 +350,15 @@
                 <trail PARENT="Menu položka"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="552.126614173228" YPOS="683.625826771654" OwnPage="1" ItemID="1721196364" PTYPE="4" WIDTH="350.078740157481" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="552.126614173228" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="1721968332"/>
-        <PAGEOBJECT XPOS="552.126614173228" YPOS="203.5" OwnPage="0" ItemID="1721982876" PTYPE="4" WIDTH="350.078740157481" HEIGHT="141" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 141 L0 141 L0 0 Z" copath="M0 0 L350.079 0 L350.079 141 L0 141 L0 0 Z" gXpos="552.126614173228" gYpos="203.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="552.126614173228" YPOS="683.625826771654" OwnPage="1" ItemID="675761040" PTYPE="4" WIDTH="350.078740157481" HEIGHT="510.236220472441" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" copath="M0 0 L350.079 0 L350.079 510.236 L0 510.236 L0 0 Z" gXpos="552.126614173228" gYpos="683.625826771654" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="675517696"/>
+        <PAGEOBJECT XPOS="552.126614173228" YPOS="203.5" OwnPage="0" ItemID="675850368" PTYPE="4" WIDTH="350.078740157481" HEIGHT="141" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.079 0 L350.079 141 L0 141 L0 0 Z" copath="M0 0 L350.079 0 L350.079 141 L0 141 L0 0 Z" gXpos="552.126614173228" gYpos="203.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CH="Jídelní a nápojový lístek"/>
                 <trail PARENT="Sekce - hlavička"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="552.12662992126" YPOS="404.5" OwnPage="0" ItemID="1726618572" PTYPE="2" WIDTH="389.763763779528" HEIGHT="222.776850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.76125735113189" LOCALSCY="0.76125735113189" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="kids with balloons.png" PRFILE="Embedded GIMP built-in sRGB" IRENDER="0" EPROF="Embedded GIMP built-in sRGB" path="M0 0 L389.764 0 L389.764 222.777 L0 222.777 L0 0 Z" copath="M0 0 L389.764 0 L389.764 222.777 L0 222.777 L0 0 Z" gXpos="552.12662992126" gYpos="404.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="552.12662992126" YPOS="404.5" OwnPage="0" ItemID="677127392" PTYPE="2" WIDTH="389.763763779528" HEIGHT="222.776850393701" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.761257351131891" LOCALSCY="0.761257351131891" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="kids with balloons.png" PRFILE="Embedded GIMP built-in sRGB" IRENDER="0" EPROF="Embedded GIMP built-in sRGB" path="M0 0 L389.764 0 L389.764 222.777 L0 222.777 L0 0 Z" copath="M0 0 L389.764 0 L389.764 222.777 L0 222.777 L0 0 Z" gXpos="552.12662992126" gYpos="404.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <ImageEffect Code="1" Param=""/>
         </PAGEOBJECT>
     </DOCUMENT>
